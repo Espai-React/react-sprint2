@@ -1,0 +1,31 @@
+
+
+//Bootstrap modificat
+$font-family-sans-serif: 'Rubik', sans-serif;
+
+$primary: #5265E1;
+$secondary: #FA5959;
+
+
+//CSS del web
+.blue-form-right {
+	
+	position: absolute;
+	z-index: -1;
+	width:400%;
+	height: 75%;
+	top:30%;
+	left:30%;
+}
+
+//Bootstrap importat
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+//CSS de Bootstrap sobreescrit
+.navbar-nav .nav-item .nav-link {
+
+	letter-spacing: .1rem;
+	font-size: .65rem;
+}
+
