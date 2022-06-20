@@ -18,6 +18,17 @@ $secondary: #FA5959;
 	left:30%;
 }
 
+.blue-form-left {
+	
+	position: absolute;
+	z-index: -1;
+	width:400%;
+	height: 95%;
+	top:25%;
+	right:25%;
+}
+
+
 //Bootstrap importat
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -29,3 +40,16 @@ $secondary: #FA5959;
 	font-size: .65rem;
 }
 
+.nav-tabs .nav-item .nav-link.active{
+    
+	color: $dark;
+    border-bottom: .25rem solid $secondary;
+}
+
+.nav-tabs .nav-item .nav-link {
+	
+	color: $gray-600;
+    border: none;
+	/* border-bottom: 1px solid #dee2e6; */
+    
+}

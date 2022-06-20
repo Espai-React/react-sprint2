@@ -7,6 +7,15 @@
   left: 30%;
 }
 
+.blue-form-left {
+  position: absolute;
+  z-index: -1;
+  width: 400%;
+  height: 95%;
+  top: 25%;
+  right: 25%;
+}
+
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11098,5 +11107,16 @@ fieldset:disabled .btn {
 .navbar-nav .nav-item .nav-link {
   letter-spacing: .1rem;
   font-size: .65rem;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #212529;
+  border-bottom: 0.25rem solid #FA5959;
+}
+
+.nav-tabs .nav-item .nav-link {
+  color: #6c757d;
+  border: none;
+  /* border-bottom: 1px solid #dee2e6; */
 }
 /*# sourceMappingURL=main.css.map */
