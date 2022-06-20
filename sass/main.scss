@@ -28,6 +28,29 @@ $secondary: #FA5959;
 	right:25%;
 }
 
+.card .img-size {
+
+	width: 40%;
+}
+
+@media (min-width: 992px) {
+
+	#card-1 {
+
+		margin-top: 1rem;
+	}
+
+	#card-2 {
+
+		margin-top: 6rem;
+	}
+
+	#card-3 {
+
+		margin-top: 11rem;
+	}
+
+}
 
 //Bootstrap importat
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -50,6 +73,6 @@ $secondary: #FA5959;
 	
 	color: $gray-600;
     border: none;
-	/* border-bottom: 1px solid #dee2e6; */
     
 }
+

@@ -16,6 +16,22 @@
   right: 25%;
 }
 
+.card .img-size {
+  width: 40%;
+}
+
+@media (min-width: 992px) {
+  #card-1 {
+    margin-top: 1rem;
+  }
+  #card-2 {
+    margin-top: 6rem;
+  }
+  #card-3 {
+    margin-top: 11rem;
+  }
+}
+
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11117,6 +11133,5 @@ fieldset:disabled .btn {
 .nav-tabs .nav-item .nav-link {
   color: #6c757d;
   border: none;
-  /* border-bottom: 1px solid #dee2e6; */
 }
 /*# sourceMappingURL=main.css.map */
