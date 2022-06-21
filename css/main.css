@@ -17,7 +17,7 @@
 }
 
 .card .img-size {
-  width: 40%;
+  width: 35%;
 }
 
 @media (min-width: 992px) {
@@ -28,7 +28,7 @@
     margin-top: 6rem;
   }
   #card-3 {
-    margin-top: 11rem;
+    margin-top: 10rem;
   }
 }
 
