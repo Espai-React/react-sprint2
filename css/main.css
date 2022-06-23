@@ -32,6 +32,12 @@
   }
 }
 
+.p-footer {
+  letter-spacing: .3rem;
+  font-size: .65rem;
+  font-weight: bold;
+}
+
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11133,5 +11139,10 @@ fieldset:disabled .btn {
 .nav-tabs .nav-item .nav-link {
   color: #6c757d;
   border: none;
+}
+
+.nav .nav-item .nav-link {
+  letter-spacing: .1rem;
+  font-size: .85rem;
 }
 /*# sourceMappingURL=main.css.map */

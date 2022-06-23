@@ -52,6 +52,13 @@ $secondary: #FA5959;
 
 }
 
+.p-footer {
+
+	letter-spacing: .3rem;
+	font-size: .65rem;
+	font-weight: bold;
+}
+
 //Bootstrap importat
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -76,3 +83,8 @@ $secondary: #FA5959;
     
 }
 
+.nav .nav-item .nav-link {
+
+	letter-spacing: .1rem;
+	font-size: .85rem;
+}
