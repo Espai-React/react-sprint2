@@ -4,7 +4,7 @@
   "description": "Exercicis Sprint 2. Itinerari React online IT Academy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "purgecss --css css/main.css --content index.html -o css/reduced.css"
   },
   "repository": {
     "type": "git",
