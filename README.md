@@ -2,9 +2,9 @@
 
 ## Exercicis Sprint 2. Itinerari React online IT Academy. 
 
-- Maquetació en Boostrap
+- Maquetació en Bootstrap
 - Personalització amb Sass i CSS
-- Purgat amb purgeCss
+- Purgat amb purgeCSS
 
 Alumne: Jordi Llop
 
