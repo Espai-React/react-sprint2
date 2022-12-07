@@ -6,5 +6,7 @@
 - Personalització amb Sass i CSS
 - Purgat amb purgeCSS
 
+Deployment: https://llopfilms.github.io/React-Sprint2/
+
 Alumne: Jordi Llop
 
